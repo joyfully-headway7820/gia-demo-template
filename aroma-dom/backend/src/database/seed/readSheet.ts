@@ -1,4 +1,4 @@
-import { readFile } from 'node:fs/promises';
+import { readFile } from 'fs/promises';
 
 // CSV, как его сохраняет Excel: разделитель «;», первая строка — заголовки
 export async function readSheet(filePath: string): Promise<string[][]> {

@@ -11,6 +11,11 @@ export class MaterialType {
   materialTypeName: string;
 
   // Процент потери сырья при производстве, например 0.12 = 0,12%
-  @Column({ type: 'numeric', precision: 5, scale: 2, transformer: numericTransformer })
+  @Column({
+    type: 'numeric',
+    precision: 5,
+    scale: 2,
+    transformer: numericTransformer,
+  })
   lossPercent: number;
 }

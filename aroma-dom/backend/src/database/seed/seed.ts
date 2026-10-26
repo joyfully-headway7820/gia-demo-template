@@ -1,4 +1,4 @@
-import { join } from 'node:path';
+import { join } from 'path';
 import { DataSource } from 'typeorm';
 import { getDataSourceOptions } from '../getDataSourceOptions.js';
 import { Material } from '../entities/Material.js';
